@@ -27,8 +27,8 @@ public class Main {
         int newNumber = 0;
 
         while (number != 0) {
-            int value = number % 10;
-            newNumber = newNumber * 10 + value;
+            int divided10 = number % 10;
+            newNumber = newNumber * 10 + divided10;
             number /= 10;
         }
         if (numberTemp == newNumber) {
